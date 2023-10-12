@@ -5,8 +5,9 @@ body, button{
     
     letter-spacing: 2px;
   }
+
   
-  h1, h3, p {
+  h1, h3, p, li {
     background: -webkit-linear-gradient(rgb(185, 230, 100), rgb(232, 233, 243));
               -webkit-background-clip: text;
               -webkit-text-fill-color: transparent;
@@ -40,4 +41,18 @@ body, button{
     margin-top:2.5rem;
     border-color: white;
     background: linear-gradient(#B9E664, white);
+  }
+
+  header{
+    display: flex;
+    flex-direction: row;
+  }
+
+  nav{
+    display: flex;
+    flex-direction: row;
+  }
+
+  li {
+    font-size: 18px;
   }
