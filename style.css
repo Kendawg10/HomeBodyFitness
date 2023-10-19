@@ -7,7 +7,7 @@ body, button{
   }
 
   
-  h1, h3, p, li {
+  h1, h3, p, h2 {
     background: -webkit-linear-gradient(rgb(185, 230, 100), rgb(232, 233, 243));
               -webkit-background-clip: text;
               -webkit-text-fill-color: transparent;
@@ -29,6 +29,11 @@ body, button{
   h1 {
   /*  border-bottom: solid 3px gold;*/
     font-size: 100px;
+    margin-top: -5px;
+  }
+
+  h2{
+    padding-top: 3rem;
   }
   
   button{
@@ -46,13 +51,33 @@ body, button{
   header{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    height: 30rem;
   }
 
   nav{
-    display: flex;
-    flex-direction: row;
-  }
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  margin-top: 2rem;
+}
 
-  li {
-    font-size: 18px;
-  }
+li{
+  color:black;
+  list-style:none;
+  margin:1rem;
+  font-size: 24px;
+  text-shadow: white 2px 1px;
+  font-size:36px
+}
+
+
+.img2{
+  background-image: url(/images/img2.jpg);
+  filter: grayscale(100%); /* Make the image black and white */
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Apply an inner shadow */
+  background-repeat: no-repeat;
+  background-size: cover; /* Cover the entire header */
+  background-position: center; /* Center the image horizontally and vertically */
+  height: 25rem; /* Set the height to match the header height */
+}
