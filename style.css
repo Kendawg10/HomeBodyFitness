@@ -13,12 +13,30 @@ body, button{
               -webkit-text-fill-color: transparent;
   }
   
+  p{
+    font-size: 24px;
+  }
+
+  img {
+    width: 100%; /* responsive images */
+    border-radius: 10px;
+  }
+  section {
+    padding: 4rem 0;
+    border-bottom: 1px dashed #9599a9;
+  }
+
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
+    hyphens:: auto;
+  }
   .card {
   /*
     display:flex;
   */
     flex-direction:column;
-    margin-top: 8rem;
+    margin-top: 0;
     align-content: center;
     justify-content:center;
     width: 100%;
@@ -29,11 +47,11 @@ body, button{
   h1 {
   /*  border-bottom: solid 3px gold;*/
     font-size: 100px;
-    margin-top: -5px;
+    margin-bottom: 0;
   }
 
   h2{
-    padding-top: 3rem;
+   
   }
   
   button{
@@ -63,11 +81,11 @@ body, button{
 }
 
 li{
-  color:black;
+  color:rgb(188, 188, 188);
   list-style:none;
   margin:1rem;
   font-size: 24px;
-  text-shadow: white 2px 1px;
+  text-shadow: black 2px 1px;
   font-size:36px
 }
 
@@ -81,3 +99,17 @@ li{
   background-position: center; /* Center the image horizontally and vertically */
   height: 25rem; /* Set the height to match the header height */
 }
+
+.heading {
+  height: 15rem;
+}
+
+.mission{
+  
+}
+
+/* .column {
+  display: inline-block;
+  width: 50%;
+  margin-right: -4px;
+} */
