@@ -23,7 +23,7 @@ body, button{
   }
   section {
     padding: 4rem 0;
-    border-bottom: 1px dashed #9599a9;
+    /* padding-top: 100px; */
   }
 
   main {
@@ -43,15 +43,30 @@ body, button{
     height: 335px;
     text-align:center;
   }
+  .column {
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+    text-align: top;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align content at the top */
+  }
+  .icon{
+    margin-bottom: 3rem;
+  }
   
   h1 {
   /*  border-bottom: solid 3px gold;*/
     font-size: 100px;
-    margin-bottom: 0;
+    margin:auto;
   }
 
   h2{
-   
+    font-size: 2rem;
+    /* margin-bottom: ; */
   }
   
   button{
@@ -64,13 +79,16 @@ body, button{
     margin-top:2.5rem;
     border-color: white;
     background: linear-gradient(#B9E664, white);
+    justify-content: center;
+    margin-left: 22rem;
   }
+  
 
   header{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 30rem;
+    /* height: 30rem; */
   }
 
   nav{
@@ -108,8 +126,4 @@ li{
   
 }
 
-/* .column {
-  display: inline-block;
-  width: 50%;
-  margin-right: -4px;
-} */
+.statement
