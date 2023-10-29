@@ -150,3 +150,9 @@ section#products {
     width: 100%; /* Set the width to 100% to stack the columns vertically */
   }
 }
+@media (max-width: 1015px) {
+  button {
+    width: 80%; /* Adjust the width as needed for smaller screens */
+    margin-top: 1rem; /* Adjust the top margin as needed for spacing */
+  }
+}
